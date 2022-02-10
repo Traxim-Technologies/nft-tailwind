@@ -3,7 +3,14 @@ module.exports = {
     "./src/**/*.{html,ts}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      height: {
+        'mobile': '812px',
+      },
+      width: {
+        'mobile': '375px',
+      }
+    },
   },
   plugins: [],
 }
