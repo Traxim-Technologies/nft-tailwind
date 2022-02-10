@@ -13,3 +13,11 @@ Run `ng generate component specific-folder/component-name` to generate a new com
 ## NFT-SCREENS
 
 1. Generate all components related to NFT Marketplace Figma Design to `/src/nft-screens/` by running this command `ng g component nft-screens/component-name`.
+2. After generate component, add path to `/src/app/app-routing.module.ts` like as follows:
+   `import { ExampleScreenComponent } from './nft-screens/component-name/component-name.component';`
+   
+   `const routes: Routes = [
+      ...
+      { path: 'component-name', component: ComponentNameComponent },
+    ];`
+3. The view will be visible to this url `APP_URL/{path}`. In above case it will be `APP_URL/component-name`.
