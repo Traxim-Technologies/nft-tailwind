@@ -1,0 +1,17 @@
+.border-b{border-bottom: 1px solid #E1E1E1;}
+
+.pro-box {
+    background-color: #F6F6F6;
+
+}
+.pro-box span {
+    font-size: 15px;
+    line-height: 21px;
+}
+
+.pro-box input {
+    font-size: 16px;
+    line-height: 24px;
+    border: none;
+    background: transparent;
+}
