@@ -4,12 +4,14 @@ import { ExampleScreenComponent } from './nft-screens/example-screen/example-scr
 import { WalletComponent } from './nft-screens/wallet/wallet.component';
 import { ProfileComponent } from './nft-screens/profile/profile.component';
 import { SearchComponent } from './nft-screens/search/search.component';
+import { SearchAllComponent } from './nft-screens/search-all/search-all.component';
 
 const routes: Routes = [
   { path: 'example-screen', component: ExampleScreenComponent },
   { path: 'wallet', component: WalletComponent },
   { path: 'profile', component: ProfileComponent },
   { path: 'search', component: SearchComponent },
+  { path: 'search-all', component: SearchAllComponent },
 ];
 
 @NgModule({
