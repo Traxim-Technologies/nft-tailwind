@@ -7,6 +7,10 @@ import { MobileWrapperComponent } from './mobile-wrapper/mobile-wrapper.componen
 import { ExampleScreenComponent } from './nft-screens/example-screen/example-screen.component';
 import { WalletComponent } from './nft-screens/wallet/wallet.component';
 import { ProfileComponent } from './nft-screens/profile/profile.component';
+import { BestSellerComponent } from './nft-screens/best-seller/best-seller.component';
+import { BestSellerSearchComponent } from './nft-screens/best-seller-search/best-seller-search.component';
+import { ChooseCollectionComponent } from './nft-screens/choose-collection/choose-collection.component';
+import { CreateNewCollectionComponent } from './nft-screens/create-new-collection/create-new-collection.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +18,11 @@ import { ProfileComponent } from './nft-screens/profile/profile.component';
     MobileWrapperComponent,
     ExampleScreenComponent,
     WalletComponent,
-    ProfileComponent
+    ProfileComponent,
+    BestSellerComponent,
+    BestSellerSearchComponent,
+    ChooseCollectionComponent,
+    CreateNewCollectionComponent
   ],
   imports: [
     BrowserModule,

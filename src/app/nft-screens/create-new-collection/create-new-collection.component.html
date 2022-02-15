@@ -1,0 +1,74 @@
+
+    <div class="bg-white head-cl  relative h-screen pt-8 "> 
+      
+        <div  class="flex px-5 justify-between items-center gap-4 pb-2 border-b">
+          <div ><i  class="fa fa-angle-left fa-solid fa-2x py-1"></i></div>
+          <div>
+             <h2  class="text-2xl font-medium title-font  text-gray-900">Create New Collection</h2>
+          </div>
+          <div></div>
+       </div>
+      <!-- This example requires Tailwind CSS v2.0+ -->
+      <div class="flex px-5 gap-5 items-center gap-2 pt-6 px-5">
+          <div class="col-start-1 col-end-2">
+              <img class=" rounded-full w-16 h-16" src="/assets/image/profile-blk.png" alt="">
+          </div>
+          
+          <div class="font-medium col-start-2 col-span-4 mt-2">
+            <h3>Leslie Alexander</h3>
+            <p class="text-indigo-600">Co-Founder / CEO</p>
+          </div>
+        </div>
+
+        <div class="  mx-5  my-7 py-5 rounded-md pro-box px-3">
+            <label class="block text-sm font-medium text-gray-700"> Cover photo </label>
+            <div class="mt-1 flex justify-center px-6 pt-5 pb-6 border-2 border-gray-300 border-dashed rounded-md">
+              <div class="space-y-1 text-center">
+                <svg class="mx-auto h-12 w-12 text-gray-400" stroke="currentColor" fill="none" viewBox="0 0 48 48" aria-hidden="true">
+                  <path d="M28 8H12a4 4 0 00-4 4v20m32-12v8m0 0v8a4 4 0 01-4 4H12a4 4 0 01-4-4v-4m32-4l-3.172-3.172a4 4 0 00-5.656 0L28 28M8 32l9.172-9.172a4 4 0 015.656 0L28 28m0 0l4 4m4-24h8m-4-4v8m-12 4h.02" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                <div class="flex text-sm text-gray-600">
+                  <label for="file-upload" class="relative cursor-pointer bg-white rounded-md font-medium text-indigo-600 hover:text-indigo-500 focus-within:outline-none focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500">
+                    <span>Upload Image</span>
+                    <input id="file-upload" name="file-upload" type="file" class="sr-only">
+                  </label>
+                  <p class="pl-1">or drag and drop</p>
+                </div>
+                <p class="text-xs text-gray-500">PNG, JPG, GIF up to 10MB</p>
+              </div>
+            </div>
+          </div>
+
+
+        <div class="  mx-5  my-7 py-5 rounded-md pro-box px-3">
+          <div class="col-start-1 col-end-7">
+              <label class="block">
+                  <span class=" text-sm font-medium text-black font-medium">
+                    Name
+                  </span>
+                  <input type="text" name="text" class="mt-1 focus:outline-none  border-0 block w-full text-sm focus:ring-0" placeholder="Example: Treasures of the Sea" />
+                </label>
+          </div>
+        </div>
+        <div class=" px-3 mx-5  my-5  pt-4 rounded-md pro-box">
+          <div class="col-start-1 col-end-7">
+              <label class="block">
+                  <span class=" text-sm font-medium text-black font-medium">
+                    Description
+                  </span>
+                
+                  <textarea rows="4" name="message" id="message" placeholder="Infomation your collection"class=" border-0 resize-none bg-transparent focus:outline-none block w-full text-sm "></textarea>
+                </label>
+          </div>
+        </div>
+    
+        <div class="   btn">
+        <div class="mr-4 absolute inset-x-0 bottom-0 ">
+          <hr class="mb-3"/>
+          <div class="flex justify-center mb-4">
+          <button class="w-full rounded-full text-white bg-indigo-500  py-2  mx-5 px-6 focus:outline-none hover:bg-indigo-600  text-lg">Place a Bid</button>
+      </div>
+      </div>
+    </div>
+     
+  </div>
