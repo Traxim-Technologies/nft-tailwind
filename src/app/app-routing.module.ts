@@ -7,6 +7,9 @@ import { BestSellerComponent } from './nft-screens/best-seller/best-seller.compo
 import { BestSellerSearchComponent } from './nft-screens/best-seller-search/best-seller-search.component';
 import { ChooseCollectionComponent } from './nft-screens/choose-collection/choose-collection.component';
 import { CreateNewCollectionComponent } from './nft-screens/create-new-collection/create-new-collection.component';
+import { CreateAnNftComponent } from './nft-screens/create-an-nft/create-an-nft.component';
+import { CreateAnNftOneComponent } from './nft-screens/create-an-nft-one/create-an-nft-one.component';
+import { CreateAnNftTwoComponent } from './nft-screens/create-an-nft-two/create-an-nft-two.component';
 
 const routes: Routes = [
   { path: 'example-screen', component: ExampleScreenComponent },
@@ -16,6 +19,9 @@ const routes: Routes = [
   { path: 'best-seller-search', component: BestSellerSearchComponent },
   { path: 'choose-collection', component: ChooseCollectionComponent },
   { path: 'create-new-collection', component: CreateNewCollectionComponent },
+  { path: 'create-an-nft', component: CreateAnNftComponent },
+  { path: 'create-an-nft-one', component: CreateAnNftOneComponent },
+  { path: 'create-an-nft-two', component: CreateAnNftTwoComponent },
 ];
 
 @NgModule({

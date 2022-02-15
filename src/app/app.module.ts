@@ -11,6 +11,9 @@ import { BestSellerComponent } from './nft-screens/best-seller/best-seller.compo
 import { BestSellerSearchComponent } from './nft-screens/best-seller-search/best-seller-search.component';
 import { ChooseCollectionComponent } from './nft-screens/choose-collection/choose-collection.component';
 import { CreateNewCollectionComponent } from './nft-screens/create-new-collection/create-new-collection.component';
+import { CreateAnNftComponent } from './nft-screens/create-an-nft/create-an-nft.component';
+import { CreateAnNftOneComponent } from './nft-screens/create-an-nft-one/create-an-nft-one.component';
+import { CreateAnNftTwoComponent } from './nft-screens/create-an-nft-two/create-an-nft-two.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +25,10 @@ import { CreateNewCollectionComponent } from './nft-screens/create-new-collectio
     BestSellerComponent,
     BestSellerSearchComponent,
     ChooseCollectionComponent,
-    CreateNewCollectionComponent
+    CreateNewCollectionComponent,
+    CreateAnNftComponent,
+    CreateAnNftOneComponent,
+    CreateAnNftTwoComponent
   ],
   imports: [
     BrowserModule,
