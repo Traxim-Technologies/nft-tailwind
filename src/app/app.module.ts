@@ -14,6 +14,9 @@ import { CreateNewCollectionComponent } from './nft-screens/create-new-collectio
 import { CreateAnNftComponent } from './nft-screens/create-an-nft/create-an-nft.component';
 import { CreateAnNftOneComponent } from './nft-screens/create-an-nft-one/create-an-nft-one.component';
 import { CreateAnNftTwoComponent } from './nft-screens/create-an-nft-two/create-an-nft-two.component';
+import { CreateAnNftThreeComponent } from './nft-screens/create-an-nft-three/create-an-nft-three.component';
+import { GalleryComponent } from './nft-screens/gallery/gallery.component';
+import { ProfileFollowingComponent } from './nft-screens/profile-following/profile-following.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +31,10 @@ import { CreateAnNftTwoComponent } from './nft-screens/create-an-nft-two/create-
     CreateNewCollectionComponent,
     CreateAnNftComponent,
     CreateAnNftOneComponent,
-    CreateAnNftTwoComponent
+    CreateAnNftTwoComponent,
+    CreateAnNftThreeComponent,
+    GalleryComponent,
+    ProfileFollowingComponent
   ],
   imports: [
     BrowserModule,
