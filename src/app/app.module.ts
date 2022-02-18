@@ -9,6 +9,7 @@ import { WalletComponent } from './nft-screens/wallet/wallet.component';
 import { ProfileComponent } from './nft-screens/profile/profile.component';
 import { SearchComponent } from './nft-screens/search/search.component';
 import { SearchAllComponent } from './nft-screens/search-all/search-all.component';
+import { DiscoveryComponent } from './nft-screens/discovery/discovery.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { SearchAllComponent } from './nft-screens/search-all/search-all.componen
     WalletComponent,
     ProfileComponent,
     SearchComponent,
-    SearchAllComponent
+    SearchAllComponent,
+    DiscoveryComponent
   ],
   imports: [
     BrowserModule,
