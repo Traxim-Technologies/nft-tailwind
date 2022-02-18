@@ -13,6 +13,12 @@ import { CreateAnNftTwoComponent } from './nft-screens/create-an-nft-two/create-
 import { CreateAnNftThreeComponent } from './nft-screens/create-an-nft-three/create-an-nft-three.component';
 import { GalleryComponent } from './nft-screens/gallery/gallery.component';
 import { ProfileFollowingComponent } from './nft-screens/profile-following/profile-following.component';
+import { ProfileFollowersComponent } from './nft-screens/profile-followers/profile-followers.component';
+import { DetailComponent } from './nft-screens/detail/detail.component';
+import { PlaceABidComponent } from './nft-screens/place-a-bid/place-a-bid.component';
+import { CameraComponent } from './nft-screens/camera/camera.component';
+import { HomeNftComponent } from './nft-screens/home-nft/home-nft.component'; 
+
 
 
 const routes: Routes = [
@@ -23,12 +29,17 @@ const routes: Routes = [
   { path: 'best-seller-search', component: BestSellerSearchComponent },
   { path: 'choose-collection', component: ChooseCollectionComponent },
   { path: 'create-new-collection', component: CreateNewCollectionComponent },
+  { path: 'home-nft', component: HomeNftComponent },
   { path: 'create-an-nft', component: CreateAnNftComponent },
   { path: 'create-an-nft-one', component: CreateAnNftOneComponent },
   { path: 'create-an-nft-two', component: CreateAnNftTwoComponent },
   { path: 'create-an-nft-three', component: CreateAnNftThreeComponent },
   { path: 'gallery', component: GalleryComponent },
   { path: 'profile-following', component: ProfileFollowingComponent },
+  { path: 'profile-followers', component: ProfileFollowersComponent },
+  { path: 'detail', component: DetailComponent },
+  { path: 'place-a-bid', component: PlaceABidComponent },
+  { path: 'camera', component: CameraComponent },
 ];
 
 @NgModule({

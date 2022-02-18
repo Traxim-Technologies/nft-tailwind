@@ -17,6 +17,11 @@ import { CreateAnNftTwoComponent } from './nft-screens/create-an-nft-two/create-
 import { CreateAnNftThreeComponent } from './nft-screens/create-an-nft-three/create-an-nft-three.component';
 import { GalleryComponent } from './nft-screens/gallery/gallery.component';
 import { ProfileFollowingComponent } from './nft-screens/profile-following/profile-following.component';
+import { ProfileFollowersComponent } from './nft-screens/profile-followers/profile-followers.component';
+import { DetailComponent } from './nft-screens/detail/detail.component';
+import { PlaceABidComponent } from './nft-screens/place-a-bid/place-a-bid.component';
+import { CameraComponent } from './nft-screens/camera/camera.component';
+import { HomeNftComponent } from './nft-screens/home-nft/home-nft.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +39,12 @@ import { ProfileFollowingComponent } from './nft-screens/profile-following/profi
     CreateAnNftTwoComponent,
     CreateAnNftThreeComponent,
     GalleryComponent,
-    ProfileFollowingComponent
+    ProfileFollowingComponent,
+    ProfileFollowersComponent,
+    DetailComponent,
+    PlaceABidComponent,
+    CameraComponent,
+    HomeNftComponent
   ],
   imports: [
     BrowserModule,
