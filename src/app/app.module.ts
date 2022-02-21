@@ -11,6 +11,7 @@ import { SearchComponent } from './nft-screens/search/search.component';
 import { SearchAllComponent } from './nft-screens/search-all/search-all.component';
 import { DiscoveryComponent } from './nft-screens/discovery/discovery.component';
 import { CreateCompleteComponent } from './nft-screens/create-complete/create-complete.component';
+import { DetailComponent } from './nft-screens/detail/detail.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { CreateCompleteComponent } from './nft-screens/create-complete/create-co
     SearchComponent,
     SearchAllComponent,
     DiscoveryComponent,
-    CreateCompleteComponent
+    CreateCompleteComponent,
+    DetailComponent
   ],
   imports: [
     BrowserModule,
