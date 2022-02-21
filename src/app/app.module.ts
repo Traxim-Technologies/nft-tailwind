@@ -10,6 +10,7 @@ import { ProfileComponent } from './nft-screens/profile/profile.component';
 import { SearchComponent } from './nft-screens/search/search.component';
 import { SearchAllComponent } from './nft-screens/search-all/search-all.component';
 import { DiscoveryComponent } from './nft-screens/discovery/discovery.component';
+import { CreateCompleteComponent } from './nft-screens/create-complete/create-complete.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { DiscoveryComponent } from './nft-screens/discovery/discovery.component'
     ProfileComponent,
     SearchComponent,
     SearchAllComponent,
-    DiscoveryComponent
+    DiscoveryComponent,
+    CreateCompleteComponent
   ],
   imports: [
     BrowserModule,
