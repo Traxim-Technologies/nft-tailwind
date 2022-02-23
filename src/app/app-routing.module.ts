@@ -19,7 +19,7 @@ import { PlaceABidComponent } from './nft-screens/place-a-bid/place-a-bid.compon
 import { CameraComponent } from './nft-screens/camera/camera.component';
 import { HomeNftComponent } from './nft-screens/home-nft/home-nft.component'; 
 import { DetailAccComponent } from './nft-screens/detail-acc/detail-acc.component'; 
-import { DetailHomeComponent } from './nft-screens/detail-home/detail-home.component'; 
+
 import { ProfileHomeComponent } from './nft-screens/profile-home/profile-home.component'; 
 import { SearchArtworkComponent } from './nft-screens/search-artwork/search-artwork.component'; 
 import { HomeScrollComponent } from './nft-screens/home-scroll/home-scroll.component'; 
@@ -47,7 +47,7 @@ const routes: Routes = [
   { path: 'place-a-bid', component: PlaceABidComponent },
   { path: 'camera', component: CameraComponent },
   { path: 'detail-acc', component: DetailAccComponent }, 
-  { path: 'detail-home', component: DetailHomeComponent }, 
+ 
   { path: 'profile-home', component: ProfileHomeComponent }, 
   { path: 'search-artwork', component: SearchArtworkComponent }, 
   { path: 'home-scroll', component: HomeScrollComponent }, 

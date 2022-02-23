@@ -9,3 +9,12 @@
 font-size: 18px;
 line-height: 28px;
 } 
+
+
+
+
+
+.overflow-x-auto{
+    scrollbar-color: transparent transparent;
+        scrollbar-width: thin; 
+    } 
