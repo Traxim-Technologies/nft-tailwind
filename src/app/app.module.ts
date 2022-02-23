@@ -26,6 +26,7 @@ import { DetailAccComponent } from './nft-screens/detail-acc/detail-acc.componen
 import { ProfileHomeComponent } from './nft-screens/profile-home/profile-home.component';
 import { SearchArtworkComponent } from './nft-screens/search-artwork/search-artwork.component';
 import { HomeScrollComponent } from './nft-screens/home-scroll/home-scroll.component';
+import { NotificationComponent } from './nft-screens/notification/notification.component';
 
 @NgModule({
   declarations: [
@@ -52,7 +53,8 @@ import { HomeScrollComponent } from './nft-screens/home-scroll/home-scroll.compo
     DetailAccComponent,
     ProfileHomeComponent,
     SearchArtworkComponent,
-    HomeScrollComponent
+    HomeScrollComponent,
+    NotificationComponent
   ],
   imports: [
     BrowserModule,
