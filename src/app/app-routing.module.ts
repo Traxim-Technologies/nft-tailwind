@@ -14,18 +14,19 @@ import { CreateAnNftThreeComponent } from './nft-screens/create-an-nft-three/cre
 import { GalleryComponent } from './nft-screens/gallery/gallery.component';
 import { ProfileFollowingComponent } from './nft-screens/profile-following/profile-following.component';
 import { ProfileFollowersComponent } from './nft-screens/profile-followers/profile-followers.component';
-import { DetailComponent } from './nft-screens/detail/detail.component';
 import { PlaceABidComponent } from './nft-screens/place-a-bid/place-a-bid.component';
 import { CameraComponent } from './nft-screens/camera/camera.component';
-import { HomeNftComponent } from './nft-screens/home-nft/home-nft.component'; 
-import { DetailAccComponent } from './nft-screens/detail-acc/detail-acc.component'; 
-
-import { ProfileHomeComponent } from './nft-screens/profile-home/profile-home.component'; 
-import { SearchArtworkComponent } from './nft-screens/search-artwork/search-artwork.component'; 
-import { HomeScrollComponent } from './nft-screens/home-scroll/home-scroll.component'; 
+import { HomeNftComponent } from './nft-screens/home-nft/home-nft.component';
+import { DetailAccComponent } from './nft-screens/detail-acc/detail-acc.component';
+import { ProfileHomeComponent } from './nft-screens/profile-home/profile-home.component';
+import { SearchArtworkComponent } from './nft-screens/search-artwork/search-artwork.component';
+import { HomeScrollComponent } from './nft-screens/home-scroll/home-scroll.component';
 import { NotificationComponent } from './nft-screens/notification/notification.component';
-
-
+import { SearchComponent } from './nft-screens/search/search.component';
+import { SearchAllComponent } from './nft-screens/search-all/search-all.component';
+import { DiscoveryComponent } from './nft-screens/discovery/discovery.component';
+import { CreateCompleteComponent } from './nft-screens/create-complete/create-complete.component';
+import { DetailComponent } from './nft-screens/detail/detail.component';
 
 const routes: Routes = [
   { path: 'example-screen', component: ExampleScreenComponent },
@@ -46,12 +47,15 @@ const routes: Routes = [
   { path: 'detail', component: DetailComponent },
   { path: 'place-a-bid', component: PlaceABidComponent },
   { path: 'camera', component: CameraComponent },
-  { path: 'detail-acc', component: DetailAccComponent }, 
- 
-  { path: 'profile-home', component: ProfileHomeComponent }, 
-  { path: 'search-artwork', component: SearchArtworkComponent }, 
+  { path: 'detail-acc', component: DetailAccComponent },
+  { path: 'profile-home', component: ProfileHomeComponent },
+  { path: 'search-artwork', component: SearchArtworkComponent },
   { path: 'home-scroll', component: HomeScrollComponent },
-  { path: 'notification', component: NotificationComponent }, 
+  { path: 'notification', component: NotificationComponent },
+  { path: 'search', component: SearchComponent },
+  { path: 'search-all', component: SearchAllComponent },
+  { path: 'discovery', component: DiscoveryComponent },
+  { path: 'create-complete', component: CreateCompleteComponent },
 ];
 
 @NgModule({

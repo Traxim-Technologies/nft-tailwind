@@ -18,7 +18,6 @@ import { CreateAnNftThreeComponent } from './nft-screens/create-an-nft-three/cre
 import { GalleryComponent } from './nft-screens/gallery/gallery.component';
 import { ProfileFollowingComponent } from './nft-screens/profile-following/profile-following.component';
 import { ProfileFollowersComponent } from './nft-screens/profile-followers/profile-followers.component';
-import { DetailComponent } from './nft-screens/detail/detail.component';
 import { PlaceABidComponent } from './nft-screens/place-a-bid/place-a-bid.component';
 import { CameraComponent } from './nft-screens/camera/camera.component';
 import { HomeNftComponent } from './nft-screens/home-nft/home-nft.component';
@@ -27,6 +26,11 @@ import { ProfileHomeComponent } from './nft-screens/profile-home/profile-home.co
 import { SearchArtworkComponent } from './nft-screens/search-artwork/search-artwork.component';
 import { HomeScrollComponent } from './nft-screens/home-scroll/home-scroll.component';
 import { NotificationComponent } from './nft-screens/notification/notification.component';
+import { SearchComponent } from './nft-screens/search/search.component';
+import { SearchAllComponent } from './nft-screens/search-all/search-all.component';
+import { DiscoveryComponent } from './nft-screens/discovery/discovery.component';
+import { CreateCompleteComponent } from './nft-screens/create-complete/create-complete.component';
+import { DetailComponent } from './nft-screens/detail/detail.component';
 
 @NgModule({
   declarations: [
@@ -55,6 +59,10 @@ import { NotificationComponent } from './nft-screens/notification/notification.c
     SearchArtworkComponent,
     HomeScrollComponent,
     NotificationComponent
+    SearchComponent,
+    SearchAllComponent,
+    DiscoveryComponent,
+    CreateCompleteComponent,
   ],
   imports: [
     BrowserModule,
