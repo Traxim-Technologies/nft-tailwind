@@ -58,11 +58,11 @@ import { DetailComponent } from './nft-screens/detail/detail.component';
     ProfileHomeComponent,
     SearchArtworkComponent,
     HomeScrollComponent,
-    NotificationComponent
+    NotificationComponent,
     SearchComponent,
     SearchAllComponent,
     DiscoveryComponent,
-    CreateCompleteComponent,
+    CreateCompleteComponent
   ],
   imports: [
     BrowserModule,
