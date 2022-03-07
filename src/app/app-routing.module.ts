@@ -29,6 +29,7 @@ import { CreateCompleteComponent } from './nft-screens/create-complete/create-co
 import { DetailComponent } from './nft-screens/detail/detail.component';
 import { DiscoveryLikeComponent } from './nft-screens/discovery-like/discovery-like.component';
 import { DiscoveryActionComponent } from './nft-screens/discovery-action/discovery-action.component';
+import { NotificationFilterComponent } from './nft-screens/notification-filter/notification-filter.component';
 
 const routes: Routes = [
   { path: 'example-screen', component: ExampleScreenComponent },
@@ -60,6 +61,7 @@ const routes: Routes = [
   { path: 'create-complete', component: CreateCompleteComponent },
   { path: 'discovery-like' , component: DiscoveryLikeComponent},
   { path: 'discovery-action' , component: DiscoveryActionComponent},
+  { path: 'notification-filter' , component: NotificationFilterComponent},
 ];
 
 export function getRoutes(){

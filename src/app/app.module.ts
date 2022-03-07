@@ -33,6 +33,8 @@ import { CreateCompleteComponent } from './nft-screens/create-complete/create-co
 import { DetailComponent } from './nft-screens/detail/detail.component';
 import { DiscoveryLikeComponent } from './nft-screens/discovery-like/discovery-like.component';
 import { DiscoveryActionComponent } from './nft-screens/discovery-action/discovery-action.component';
+import { NotificationFilterComponent } from './nft-screens/notification-filter/notification-filter.component';
+
 
 @NgModule({
   declarations: [
@@ -66,7 +68,8 @@ import { DiscoveryActionComponent } from './nft-screens/discovery-action/discove
     DiscoveryComponent,
     CreateCompleteComponent,
     DiscoveryLikeComponent,
-    DiscoveryActionComponent
+    DiscoveryActionComponent,
+    NotificationFilterComponent
   ],
   imports: [
     BrowserModule,
