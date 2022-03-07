@@ -27,6 +27,8 @@ import { SearchAllComponent } from './nft-screens/search-all/search-all.componen
 import { DiscoveryComponent } from './nft-screens/discovery/discovery.component';
 import { CreateCompleteComponent } from './nft-screens/create-complete/create-complete.component';
 import { DetailComponent } from './nft-screens/detail/detail.component';
+import { DiscoveryLikeComponent } from './nft-screens/discovery-like/discovery-like.component';
+import { DiscoveryActionComponent } from './nft-screens/discovery-action/discovery-action.component';
 
 const routes: Routes = [
   { path: 'example-screen', component: ExampleScreenComponent },
@@ -56,7 +58,13 @@ const routes: Routes = [
   { path: 'search-all', component: SearchAllComponent },
   { path: 'discovery', component: DiscoveryComponent },
   { path: 'create-complete', component: CreateCompleteComponent },
+  { path: 'discovery-like' , component: DiscoveryLikeComponent},
+  { path: 'discovery-action' , component: DiscoveryActionComponent},
 ];
+
+export function getRoutes(){
+  return routes;
+}
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

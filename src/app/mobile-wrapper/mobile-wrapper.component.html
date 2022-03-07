@@ -1,3 +1,11 @@
+<div class="relative">
 <div class="mx-auto mt-2 bg-white w-mobile h-mobile">
+    <div class="absolute left-0 top-0">
+        <div *ngFor="let route of routes(); let i = index">
+            <a [href]="route.path" class="capitalize">{{ (i+1)+". "+route.path?.split('-')?.join(' ') }}</a>
+        </div>
+    </div>
     <ng-content></ng-content>
 </div>
+</div>
+

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { getRoutes } from '../app-routing.module';
 @Component({
   selector: 'app-mobile-wrapper',
   templateUrl: './mobile-wrapper.component.html',
@@ -12,4 +12,7 @@ export class MobileWrapperComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  routes(){
+    return getRoutes();
+  }
 }
